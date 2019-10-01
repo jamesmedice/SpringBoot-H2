@@ -3,7 +3,9 @@ package com.medici.app.spring.rest.vm;
 import ch.qos.logback.classic.Logger;
 
 /**
- * View Model object for storing a Logback logger.
+ * 
+ * @author a73s
+ *
  */
 public class LoggerVM {
 
