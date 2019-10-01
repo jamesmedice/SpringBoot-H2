@@ -18,7 +18,9 @@ import ch.qos.logback.classic.Level;
 import ch.qos.logback.classic.LoggerContext;
 
 /**
- * Controller for view and managing Log Level at runtime.
+ * 
+ * @author a73s
+ *
  */
 @RestController
 @RequestMapping("/management")

@@ -3,13 +3,13 @@ package com.medici.app.spring.sevice.mapper;
 import java.util.List;
 
 /**
- * Contract for a generic dto to entity mapper.
+ * 
+ * @author a73s
  *
  * @param <D>
- *            - DTO type parameter.
  * @param <E>
- *            - Entity type parameter.
  */
+
 
 public interface EntityMapper<D, E> {
 

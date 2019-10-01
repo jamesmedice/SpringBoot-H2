@@ -1,7 +1,9 @@
 package com.medici.app.spring.util;
 
 /**
- * Application constants.
+ * 
+ * @author a73s
+ *
  */
 public final class Constants {
 
