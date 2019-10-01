@@ -1,0 +1,25 @@
+server:
+    port: 8787
+
+spring:
+    h2:
+        console:
+            path: /h2
+            enabled: true
+    jackson:
+        serialization.indent_output: true
+    datasource:
+        driver-class-name: org.h2.Driver
+        url: jdbc:h2:./data/DBGateway
+        username: sa
+        password: 
+        initialization-mode: always
+        schema: classpath:/schema.sql
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
+        generate-ddl: false
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.H2Dialect
