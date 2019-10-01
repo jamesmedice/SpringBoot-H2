@@ -26,7 +26,11 @@ import com.medici.app.spring.rest.util.PaginationUtil;
 import com.medici.app.spring.sevice.JobsService;
 
 /**
+ * 
+ * @author a73s
+ * 
  * REST controller for managing Jobs.
+ *
  */
 @RestController
 @RequestMapping("/api")
