@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: portal
+    image: jamesmedice/portal:latest
+    ports:
+      - "8787:8787"
